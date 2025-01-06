@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Work Sans", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 15px 23px 15px 23px;
+    border: none;
+    color: white;
+    cursor: pointer;
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+#banner{
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('images/hero-bg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 1363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#banner .banner-content{
+    width: 682px;
+    text-align: center;
+}
+.banner-content .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 11px;
+}
+.banner-content .title {
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 43px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+}
+.banner-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 17px;
+}
